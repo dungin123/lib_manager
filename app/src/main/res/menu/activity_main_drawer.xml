@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TrangChu"
+            android:icon="@drawable/home36"
+            android:title="@string/menu_TrangChu" />
+        <item
+            android:id="@+id/nav_ThongKe"
+            android:icon="@drawable/script36"
+            android:title="@string/menu_ThongKe" />
+        <item
+            android:id="@+id/nav_HuongDan"
+            android:icon="@drawable/tuition36"
+            android:title="@string/menu_HuongDanNhanh" />
+    </group>
+        <item android:title="@string/menu_HuongDan">
+            <group android:checkableBehavior="single">
+                <menu>
+
+                    <item
+                        android:id="@+id/nav_hoiDap"
+                        android:icon="@drawable/question36"
+                        android:title="@string/menu_HoiDap" />
+
+                    <item
+                        android:id="@+id/nav_UngDung"
+                        android:icon="@drawable/designer36"
+                        android:title="@string/menu_UngDung" />
+                    <item
+                        android:id="@+id/nav_GhiChu"
+                        android:icon="@drawable/note36"
+                        android:title="@string/menu_GhiChu" />
+                </menu>
+            </group>
+        </item>
+        <item android:title="@string/menu_NguoiDung">
+            <group android:checkableBehavior="single">
+                <menu>
+                    <item
+                        android:id="@+id/nav_ThongTinCaNhan"
+                        android:icon="@drawable/user36"
+                        android:title="@string/menu_ThongTinCaNhan" />
+
+                    <item
+                        android:id="@+id/nav_ThemNhanVien"
+                        android:icon="@drawable/male36"
+                        android:title="@string/menu_ThemNguoiDung" />
+                    <item
+                        android:id="@+id/nav_CaiDat"
+                        android:icon="@drawable/settings36"
+                        android:title="@string/menu_CaiDat" />
+                    <item
+                        android:id="@+id/nav_DangXuat"
+                        android:icon="@drawable/down36"
+                        android:title="@string/menu_DangXuat" />
+                </menu>
+            </group>
+        </item>
+
+</menu>
+

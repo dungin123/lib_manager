@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DuAnMau Tran Huu Thang Ph12955</string>
+    <string name="title_activity_main_quan_ly_thu_vien">MainActivityQuanLyThuVien</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Library</string>
+    <string name="nav_header_subtitle">Thư viện trong tầm tay</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Delete">Delete All</string>
+
+    <string name="menu_TrangChu">Trang chủ</string>
+    <string name="menu_ThongKe">Thống kê thư viện</string>
+    <string name="menu_GhiChu">Ghi chú</string>
+
+    <string name="menu_HuongDan">Thiết lập khách hàng</string>
+    <string name="menu_HuongDanNhanh">Quản lý phiếu mượn</string>
+    <string name="menu_HoiDap">Thêm đơn vị thành viên</string>
+    <string name="menu_UngDung">Về ứng dụng</string>
+
+    <string name="menu_NguoiDung">Thiết lập thành viên</string>
+    <string name="menu_ThongTinCaNhan">Thông tin cá nhân</string>
+    <string name="menu_ThemNguoiDung">Thêm nhân viên</string>
+    <string name="menu_CaiDat">Cài đặt</string>
+    <string name="menu_DangXuat">Đăng xuất</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

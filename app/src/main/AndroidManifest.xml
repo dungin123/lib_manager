@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmautranhuuthangph12955">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DuAnMauTranHuuThangPh12955">
+        <activity android:name="QuanLyThuVien.ui.ThongTinCaNhan.MainActivityThayDoiMatKhauCaNhan"></activity>
+        <activity android:name="QuanLyThuVien.ui.ThongTinCaNhan.DoiMatKhauMainActivity" />
+        <activity android:name="QuanLyThuVien.ui.XemSach.XemChiTietSachMainActivity" />
+        <activity android:name="QuanLyThuVien.ui.ThemGhiChu.TaoGhiChuMainActivity" />
+        <activity android:name="QuanLyThuVien.ui.QuanLyPhieuMuon.CustomPhieuMuon.ChinhSuaPhieuMuonMainActivity" />
+        <activity android:name="QuanLyThuVien.ui.QuanLyPhieuMuon.CustomPhieuMuon.XemChiTietPhieuMuonMainActivity" />
+        <activity android:name="FormLogin.MainActivityNewPassWord" />
+        <activity android:name="FormLogin.MainActivityLaylaiMatKhau" />
+        <activity android:name="QuanLyThuVien.ui.ThemNhanVien.ThemNhanVienActivity" />
+        <activity
+            android:name="QuanLyThuVien.MainActivityQuanLyThuVien"
+            android:label="@string/title_activity_main_quan_ly_thu_vien"
+            android:theme="@style/Theme.DuAnMauTranHuuThangPh12955.NoActionBar" />
+        <activity
+            android:name="SplashScreen.MainActivitySplashScreen"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FormLogin.MainActivityDangKy" />
+        <activity android:name="FormLogin.MainActivityDangNhap" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

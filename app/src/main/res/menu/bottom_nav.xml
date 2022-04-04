@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/atc_trangChu"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/atc_nhapSach"
+        android:icon="@drawable/ic_baseline_add_to_photos_24"
+        android:title="Nhập sách"></item>
+    <item
+        android:id="@+id/atc_xuatSach"
+        android:icon="@drawable/ic_baseline_indeterminate_check_box_24"
+        android:title="Xuất sách"></item>
+    <item
+        android:id="@+id/atc_thueSach"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Tìm kiếm sách">
+    </item>
+</menu>

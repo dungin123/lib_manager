@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_TrangChu">
+
+    <fragment
+        android:id="@+id/nav_TrangChu"
+        android:name="QuanLyThuVien.ui.home.HomeFragment"
+        android:label="@string/menu_TrangChu"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ThongKe"
+        android:name="QuanLyThuVien.ui.ThongKeTopThuVien.ThongKeThuVienFragment"
+        android:label="@string/menu_ThongKe"
+        tools:layout="@layout/fragment_thong_ke_thu_vien" />
+
+    <fragment
+        android:id="@+id/nav_GhiChu"
+        android:name="QuanLyThuVien.ui.ThemGhiChu.ThemGhiChuFragment"
+        android:label="@string/menu_GhiChu"
+        tools:layout="@layout/fragment_them_ghi_chu" />
+
+
+    <fragment
+        android:id="@+id/nav_HuongDan"
+        android:name="QuanLyThuVien.ui.QuanLyPhieuMuon.QuanLyPhieuMuonFragment"
+        android:label="@string/menu_HuongDanNhanh"
+        tools:layout="@layout/fragment_quan_ly_phieu_muon" />
+
+    <fragment
+        android:id="@+id/nav_hoiDap"
+        android:name="QuanLyThuVien.ui.ThemDonViDaiDien.ThemDonViFragment"
+        android:label="@string/menu_HoiDap"
+        tools:layout="@layout/fragment_them_thanh_vien" />
+
+    <fragment
+        android:id="@+id/nav_UngDung"
+        android:name="QuanLyThuVien.ui.VePhiaUngDung.UngDungFragment"
+        android:label="@string/menu_UngDung"
+        tools:layout="@layout/fragment_ung_dung" />
+
+    <fragment
+        android:id="@+id/nav_ThongTinCaNhan"
+        android:name="QuanLyThuVien.ui.ThongTinCaNhan.ThongTinCaNhanFragment"
+        android:label="@string/menu_ThongTinCaNhan"
+        tools:layout="@layout/fragment_thong_tin_ca_nhan" />
+
+    <fragment
+        android:id="@+id/nav_ThemNhanVien"
+        android:name="QuanLyThuVien.ui.ThemNhanVien.ThemNhanVienFragment"
+        android:label="@string/menu_ThemNguoiDung"
+        tools:layout="@layout/fragment_them_nhan_vien" />
+
+    <fragment
+        android:id="@+id/nav_CaiDat"
+        android:name="QuanLyThuVien.ui.CaiDat.CaiDatFragment"
+        android:label="@string/menu_CaiDat"
+        tools:layout="@layout/fragment_cai_dat" />
+
+    <fragment
+        android:id="@+id/nav_DangXuat"
+        android:name="QuanLyThuVien.ui.DangXuat.DangXuatFragment"
+        android:label="@string/menu_DangXuat"
+        tools:layout="@layout/fragment_dang_xuat" />
+</navigation>
